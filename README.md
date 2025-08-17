@@ -29,7 +29,7 @@ spec:
 ### Template_Zabbix_DSE_7xxx_MKII
 Started: 2025
 
-<a href="https://github.com/jammsen/docker-the-forest-dedicated-server">
+<a href="https://github.com/rickdeckard82/Template_Zabbix_DSE_7xxx_MKII">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=rickdeckard82&repo=Template_Zabbix_DSE_7xxx_MKII&theme=dark" />
 </a>
 
