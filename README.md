@@ -1,7 +1,7 @@
 ## About
 
 ```yaml
-apiVersion: v43
+apiVersion: v40
 kind: Human
 metadata:
   name: Rick Deckard
