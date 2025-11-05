@@ -1,0 +1,34 @@
+name: generate-snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"     # todos os dias 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write            # permite publicar na branch 'output'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake (GitHub Dark + verdes)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: GuiTorX
+          # gera dentro de 'dist/'
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#A371F7&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
+
+      # passo opcional: mostrar o que foi gerado (ajuda a debugar)
+      - name: List generated files
+        run: ls -la dist
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output    # publica na branch 'output'
+          build_dir: dist          # publica o conteúdo de 'dist/'
+          commit_message: "chore: update snake.svg"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
