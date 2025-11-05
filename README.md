@@ -34,3 +34,7 @@ Started: 2025
 </a>
 
 [🔼](#hey-you)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rickdeckard82/rickdeckard82/output/snake.svg" alt="snake animation"/>
+</div>
