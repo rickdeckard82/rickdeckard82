@@ -24,13 +24,13 @@ spec:
 ```
 [🔼](#hey-you)
 
-## Zabbix
+## Site ehs.eti.br
 
-### Template_Zabbix_DSE_7xxx_MKII
+### Site ehs.eti.br
 Started: 2025
 
-<a href="https://github.com/rickdeckard82/Template_Zabbix_DSE_7xxx_MKII">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=rickdeckard82&repo=Template_Zabbix_DSE_7xxx_MKII&theme=dark" />
+<a href="https://github.com/rickdeckard82/ehs.eti.br">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin?username=rickdeckard82&repo=ehs.eti.br&theme=dark" />
 </a>
 
 [🔼](#hey-you)
